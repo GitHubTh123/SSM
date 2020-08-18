@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test" />
+        <module name="coin" />
+        <module name="permitted" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="coin" target="1.8" />
+      <module name="crud" target="1.8" />
+      <module name="kaoshi" target="1.8" />
+      <module name="permitted" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="total" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

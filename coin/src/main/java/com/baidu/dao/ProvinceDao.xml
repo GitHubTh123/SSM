@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baidu.dao.ProvinceDao">
+    <select id="all" resultType="province">
+select id,name,shenghui,jiancheng from province
+
+    </select>
+
+    <select id="byId" resultType="province">
+        select id,name,shenghui,jiancheng from province where id=#{id}
+    </select>
+
+    <insert id="insertProvince">
+        insert into province (id,name,shenghui,jiancheng) values (#{id},#{name},#{shenghui},#{jiancheng})
+    </insert>
+<delete id="deleteProvince">
+    delete from province where id=#{id}
+</delete>
+    <update id="updateProvince">
+        update province set name=#{name},shenghui=#{shenghui},jiancheng=#{jiancheng} where id=#{id}
+    </update>
+</mapper>

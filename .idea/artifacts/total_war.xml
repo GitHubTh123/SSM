@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="total:war">
+    <output-path>$PROJECT_DIR$/total/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>total</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="total-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="total:war exploded" />
+    </root>
+  </artifact>
+</component>

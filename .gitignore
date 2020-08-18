@@ -1,0 +1,4 @@
+# Project exclude paths
+/coin/target/
+/permitted/target/
+/test/target/
